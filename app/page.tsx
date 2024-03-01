@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -174,7 +175,7 @@ export default function Home() {
       </div>
       <div className="p-5 flex flex-wrap justify-center w-fit">
         {projectList.map((item) =>
-          <Link href={item.link} passHref={true}>
+          <Link href={item.link} passHref={true} key={item.title}>
             <div className="p-5 w-96">
               <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
               </div>
