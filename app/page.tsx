@@ -126,7 +126,7 @@ export default function Home() {
       <div className="mt-5 text-xl">
         <div className="flex justify-center items-center p-5">
           <p><img src="assets/sol_dark_1080_circle.png" height={100} width={100} alt="LSN Solutions Logo" title="Sol White Logo" /></p>
-          <h2 className="flex flex-row pl-10 text-3xl">Hi there 👋 greetings from &nbsp;<p className="font-bold"> LSN Solutions </p></h2>
+          <h2 className="flex flex-row pl-10 text-3xl">Hi there 👋 greetings from &nbsp;<p className="font-bold"> Solutions </p></h2>
         </div>
         <hr />
         <div className="p-5">

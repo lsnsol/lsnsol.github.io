@@ -1,6 +1,6 @@
 ![LSN Solutions Logo](sol_white_360.png "Sol White Logo")
 
-## Hi there 👋 greetings from LSN Solutions
+## Hi there 👋 greetings from Solutions
 
 LSN Solutions aims to provide all-around solutions to your technical problems. It will include sample POCs on various day-to-day problems from a technology perspective. These will include but not limited to:
 
