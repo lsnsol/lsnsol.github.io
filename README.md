@@ -1,4 +1,4 @@
-![LSN Solutions Logo](sol_white_360.png "Sol White Logo")
+![LSN Solutions Logo](public/assets/sol_white_360.png "Sol White Logo")
 
 ## Hi there 👋 greetings from Solutions
 

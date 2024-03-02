@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LSN Solutions",
+  title: "Solutions",
   description: "Solutions to Everyday Coding Problems",
   icons: { icon: 'assets/sol_dark_1080_circle.png' },
 };
