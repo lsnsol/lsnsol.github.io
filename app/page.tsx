@@ -130,7 +130,7 @@ export default function Home() {
         </div>
         <hr />
         <div className="p-5">
-          <p>LSN Solutions aims to provide all-around solutions to your technical problems. It will include sample POCs on various day-to-day problems from a technology perspective. These will include but not limited to:</p>
+          <p>Solutions aims to provide all-around solutions to your technical problems. It will include sample POCs on various day-to-day problems from a technology perspective. These will include but not limited to:</p>
         </div>
         <div className="flex flex-wrap p-5 w-fit space-x-4 font-bold">
           <div>Node</div>
