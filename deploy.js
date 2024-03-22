@@ -4,7 +4,7 @@ ghpages.publish('out',
     {
         nojekyll: true,
         cname: 'solutions.lurisan.in',
-        dotfiles: true,        
+        dotfiles: true
     },
     function (err) {
         console.log(err)

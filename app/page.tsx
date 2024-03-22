@@ -1,126 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
+import Projects from "../public/assets/projectList.json";
 
 export default function Home() {
-
-  const projectList = [
-    {
-      title: 'Peregrine',
-      description: 'A clone of Twitter',
-      link: 'https://github.com/lsnsol/peregrine'
-    },
-    {
-      title: 'LFR Swarm',
-      description: 'Swarm of LFR Robots',
-      link: 'https://github.com/lsnsol/LFRSwarm'
-    },
-    {
-      title: 'Snippets',
-      description: 'Snippets of Code for utilities',
-      link: 'https://github.com/lsnsol/snippets'
-    },
-    {
-      title: 'Kubernetes',
-      description: 'How to Kubernetes',
-      link: 'https://github.com/lsnsol/kubernetes'
-    },
-    {
-      title: 'Kafka Spring Docker',
-      description: 'A sample of Kafka Spring and Docker',
-      link: 'https://github.com/lsnsol/kafka_spring_docker'
-    },
-    {
-      title: 'Mongo Crud',
-      description: 'A JS based Mongo CRUD',
-      link: 'https://github.com/lsnsol/mongo-crud'
-    },
-    {
-      title: 'Firebase Web App',
-      description: 'A sample implementation of Firebase',
-      link: 'https://github.com/lsnsol/firebase-web-app'
-    },
-    {
-      title: 'Concepts of Java',
-      description: 'Concepts of Java',
-      link: 'https://github.com/lsnsol/conceptsOfJava'
-    },
-    {
-      title: 'Sample C Programs',
-      description: 'Sample C Programs',
-      link: 'https://github.com/lsnsol/Sample-C-Programs'
-    },
-    {
-      title: 'RNN Sample',
-      description: 'A sample code of RNN',
-      link: 'https://github.com/lsnsol/rnn_sample'
-    },
-    {
-      title: 'SNN Sample',
-      description: 'A Sample code of SNN',
-      link: 'https://github.com/lsnsol/snn-sample'
-    },
-    {
-      title: 'Mini JDBC',
-      description: 'Sample JDBC Connection',
-      link: 'https://github.com/lsnsol/Mini-JDBC'
-    },
-    {
-      title: 'Java School Libray Project',
-      description: 'School Libray Project in Java',
-      link: 'https://github.com/lsnsol/Java-School-Library-Project'
-    },
-    {
-      title: 'Mini File Copier',
-      description: 'Copying files from Folder to Folder in Java',
-      link: 'https://github.com/lsnsol/Mini-File-Copier'
-    },
-    {
-      title: 'Mini Railway Booking System',
-      description: 'Railway Booking Application in Java',
-      link: 'https://github.com/lsnsol/Mini-Railway-Booking-System'
-    },
-    {
-      title: 'Mini Doctor Booking System',
-      description: 'Doctor Booking System in Java',
-      link: 'https://github.com/lsnsol/Mini-Doctor-Booking'
-    },
-    {
-      title: 'Mini CRUD JDBC AngularJS',
-      description: 'Sample CRUD JDBC AngularJS',
-      link: 'https://github.com/lsnsol/Mini-CRUD-JDBC-AngularJs'
-    },
-    {
-      title: 'Mini College',
-      description: 'College Data Record Collection in Java',
-      link: 'https://github.com/lsnsol/Mini-College'
-    },
-    {
-      title: 'Mini Doctor Booking System',
-      description: 'Doctor Booking System in Java',
-      link: 'https://github.com/lsnsol/Mini-Doctor-Booking'
-    },
-    {
-      title: 'Mini Banking System',
-      description: 'Banking System in Java',
-      link: 'https://github.com/lsnsol/Mini-Banking-System'
-    },
-    {
-      title: 'Cab Booking System',
-      description: 'Cab Booking based on JSP Java',
-      link: 'https://github.com/lsnsol/JSP-Java-Based-Cab-Booking-System'
-    },
-    {
-      title: 'Gene Selection Technique',
-      description: 'Gene Selection Technique using Wrapper Approach',
-      link: 'https://github.com/lsnsol/A-Novel-Gene-Selection-Technique-Using-Wrapper-Approach-on-Microarray-Gene-Expression-Data'
-    },
-    {
-      title: 'Comments Classification',
-      description: 'Comments Classification based on NLP',
-      link: 'https://github.com/lsnsol/NLP-Based-Comments-Classification'
-    }
-  ]
-
   return (
     <div>
       <div className="mt-5 text-xl">
@@ -174,15 +55,15 @@ export default function Home() {
         </div>
       </div>
       <div className="p-5 flex flex-wrap justify-center w-fit">
-        {projectList.map((item) =>
-          <Link href={item.link} passHref={true} key={item.title}>
+        {Projects.projectList.map((project) =>
+          <Link href={project.link} passHref={true} key={project.title}>
             <div className="p-5 w-96">
               <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
               </div>
               <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div className="p-2">
-                  <div className="text-gray-900 font-bold text-xl mb-2">{item.title}</div>
-                  <p className="text-gray-700 text-base">{item.description}</p>
+                  <div className="text-gray-900 font-bold text-xl mb-2">{project.title}</div>
+                  <p className="text-gray-700 text-base">{project.description}</p>
                 </div>
               </div>
             </div >
