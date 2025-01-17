@@ -86,11 +86,6 @@
       "link": "https://github.com/lsnsol/Mini-College"
     },
     {
-      "title": "Mini Doctor Booking System",
-      "description": "Doctor Booking System in Java",
-      "link": "https://github.com/lsnsol/Mini-Doctor-Booking"
-    },
-    {
       "title": "Mini Banking System",
       "description": "Banking System in Java",
       "link": "https://github.com/lsnsol/Mini-Banking-System"
@@ -119,6 +114,21 @@
       "title": "Google Compute",
       "description": "How to use App Engine, Cloud Run and Compute Engine (VM) on GCP",
       "link": "https://github.com/lsnsol/google-compute"
+    },
+    {
+      "title": "Angular Microfrontend with Webpack",
+      "description": "Angular implementation of Microfrontend",
+      "link": "https://github.com/lsnsol/angular-mfe"
+    },
+    {
+      "title": "Angular Firebase Webapp",
+      "description": "Angular with Firebase deployment configuration and detailed step by step approach",
+      "link": "https://github.com/lsnsol/Firebase-Web-App"
+    },
+    {
+      "title": "NextJs Boilerplate",
+      "description": "Nextjs boilerplate with Tailwind, App Routing which can be used to do a headstart on initial setup",
+      "link": "https://github.com/lsnsol/next_app_bp"
     }
   ]
 }
